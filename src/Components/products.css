@@ -37,8 +37,8 @@
   /* Add more styles as needed for smaller screens */
 
   .productCard {
-    width: 11rem;
-    margin: 5px;
+    width: 9rem;
+    margin: 2px;
     padding: 5px;
     /* width: fit-content; */
   }
