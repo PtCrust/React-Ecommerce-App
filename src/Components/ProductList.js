@@ -52,7 +52,7 @@ function ProductList() {
                 </div>
                 {products.map(product => {
                     return (
-                        <div key={product.id} style={{width:"auto"}}>
+                        <div key={product.id} style={{width:"fit-content" , margin:"auto"}}>
                             <Products product={product} />
                         </div>
                     );
