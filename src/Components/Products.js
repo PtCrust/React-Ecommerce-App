@@ -17,8 +17,8 @@ function Products(props) {
                 </button>
             <div className="card-body" id={props.product.id}>
                 <h5 className="card-title">{props.product.title}</h5>
+                <h4 className="text-center"><b>{props.product.price} $</b></h4>
                 <p className="card-text">{props.product.description}</p>
-                <h3>Price: {props.product.price} $</h3>
             </div>
             <div className="buttonn">
                 <button className="btn btn-primary w-50" onClick={() => {
