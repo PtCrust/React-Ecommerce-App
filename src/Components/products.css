@@ -1,13 +1,15 @@
 
 .productCard {
+  width: 15rem ;
+  display: flex;
   margin: 10px;
   padding: 5px;
 }
 .productCard img {
-  height: 200px;
+  height: 11rem;
 }
 .card-body {
-  height: 200px;
+  height: 12rem;
   overflow: hidden;
 }
 .buttonn {
@@ -18,4 +20,49 @@
 .buttonn button {
   width: 100%;
   margin: 2px;
+}
+
+
+@media screen and (max-width: 600px) {
+  /* Adjust styles for devices with a maximum width of 600px */
+
+  .container {
+      width: 100%;
+  }
+
+  .header {
+      font-size: 18px;
+  }
+
+  /* Add more styles as needed for smaller screens */
+
+  .productCard {
+    width: 11rem;
+    margin: 5px;
+    padding: 5px;
+    /* width: fit-content; */
+  }
+  .productCard img {
+    width: 6rem;
+    margin: auto;
+    height:6rem;
+  }
+
+  .card-body {
+    height: 6rem;
+    overflow: hidden;
+  }
+  .card-body h5, h4{
+    font-size: smaller;
+
+  }
+  .buttonn {
+    display: flex;
+    float: left;
+    width: 100%;
+  }
+  .buttonn button {
+    width: 100%;
+    margin: 2px;
+  }
 }

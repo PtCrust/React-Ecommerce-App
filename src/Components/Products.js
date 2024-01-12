@@ -9,14 +9,14 @@ import { faArrowDownWideShort } from "@fortawesome/free-solid-svg-icons";
 function Products(props) {
     const dispatch = useDispatch();
     return (
-        <div className="card productCard  bg-opacity-50" style={{ width: "15rem", display: "flex" }}>
+        <div className="card productCard  bg-opacity-50">
             <img src={props.product.image} className="card-img-top" alt="sora" />
             <button className="btn btn-warning m-2 position-absolute" style={{right:"0"}} onClick={() => {
                     dispatch(addToCart(props.product))
                 }}><FontAwesomeIcon  icon={faCartPlus} />
                 </button>
             <div className="card-body" id={props.product.id}>
-                <h5 className="card-title">{props.product.title}</h5>
+                <h5 className="card-title text-center">{props.product.title}</h5>
                 <h4 className="text-center"><b>{props.product.price} $</b></h4>
                 <p className="card-text">{props.product.description}</p>
             </div>
