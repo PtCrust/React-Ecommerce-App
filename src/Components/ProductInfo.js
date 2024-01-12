@@ -28,7 +28,7 @@ function ProductInfo() {
     return (
         <>
             <div className="card productCard" style={{ marginTop: "4rem" }} >
-                <img src={product.image} className="card-img-top" style={{ width: "fit-content", margin: "auto", height: "fit-content" }} alt="product" />
+                <img src={product.image} className="card-img-top" style={{ width: "20rem", margin: "auto", height: "fit-content" }} alt="product" />
                 <div className="card-body" style={{ overflow: "visible", height: "fit-content" }} id={product.id}>
                     <h5 className="card-title">{product.title}</h5>
                     <p className="card-text">{product.description}</p>

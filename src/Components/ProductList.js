@@ -37,7 +37,7 @@ function ProductList() {
         <div className="container">
             <div className="row">
                 <h1 className="text-center text-white p-3">STORE</h1>
-                <div style={{ display: "flex", justifyContent: "center" }}>
+                <div style={{ display: "flex", justifyContent: "center" , flexWrap:"wrap"}}>
 
                     <button className="btn btn-primary m-2" onClick={() => {
                         allProducts();
