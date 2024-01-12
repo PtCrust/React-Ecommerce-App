@@ -1,0 +1,23 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about p{
+    text-align:justify;
+    width:25em;
+    margin-top: 5%;
+    color: black;
+}
+.contactUS{
+
+    width:25em;
+    margin-top: 5%;
+}
+.contactUS a{
+    text-decoration: none;
+    color: black;
+}
+.contactUS li{
+    margin: 10px;
+}
+

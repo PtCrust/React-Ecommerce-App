@@ -1,0 +1,21 @@
+
+.productCard {
+  margin: 10px;
+  padding: 5px;
+}
+.productCard img {
+  height: 200px;
+}
+.card-body {
+  height: 200px;
+  overflow: hidden;
+}
+.buttonn {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+.buttonn button {
+  width: 100%;
+  margin: 2px;
+}
