@@ -5,6 +5,7 @@ import { addToCart } from "./rtk/slices/cart-Slice";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDownWideShort } from "@fortawesome/free-solid-svg-icons";
 
 function Products(props) {
     const dispatch = useDispatch();
@@ -31,7 +32,7 @@ function Products(props) {
                         card.style.height = "fit-content";
                         card.style.overflow = "auto";
                     }
-                }} ><FontAwesomeIcon icon={faCircleInfo} /></button>
+                }} ><FontAwesomeIcon icon={faArrowDownWideShort} /></button>
                 <Link className="btn btn-secondary w-50" to={`/detailes/${props.product.id}`}>View</Link>
 
             </div>
