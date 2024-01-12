@@ -4,7 +4,6 @@ import { useDispatch } from "react-redux";
 import { addToCart } from "./rtk/slices/cart-Slice";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
-import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 import { faArrowDownWideShort } from "@fortawesome/free-solid-svg-icons";
 
 function Products(props) {
